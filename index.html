@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prettiest Girl In The World UK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+      color: #fff;
+      text-shadow: 0 0 10px rgba(255,255,255,0.8);
+      overflow: hidden;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .hearts span {
+      position: absolute;
+      font-size: 2rem;
+      animation: float 5s ease-in infinite;
+      opacity: 0.8;
+    }
+    @keyframes float {
+      0% { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      50% { opacity: 0.8; }
+      100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: center">
+    <h3>This Webpage is to declare that</h3>
+    <h1>Manasvi ❤️</h1>
+    <h3>Is the prettiest Girl in the World!</h3>
+    <h3>And we all love her very much!</h3>
+  </div>
+  <div class="hearts">
+    <!-- Floating hearts -->
+    <span style="left:10%; animation-duration:4s;">❤️</span>
+    <span style="left:30%; animation-duration:6s;">❤️</span>
+    <span style="left:50%; animation-duration:5s;">❤️</span>
+    <span style="left:70%; animation-duration:7s;">❤️</span>
+    <span style="left:90%; animation-duration:4.5s;">❤️</span>
+  </div>
+</body>
+</html>
